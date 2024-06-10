@@ -1,0 +1,287 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.left-part {
+    height: 30px;
+    width: 30%;
+    display: flex;
+}
+
+.left-msg-icn {
+    height: 30px;
+    width: 10%;
+}
+
+.left-email {
+    height: 30px;
+    width: 40%;
+    color: #fff;
+}
+
+.left-call-icn {
+    height: 30px;
+    width: 10%;
+}
+
+.left-phone-no {
+    height: 30px;
+    width: 40%;
+    color: #fff;
+}
+
+.right-part {
+    height: 30px;
+    width: 30%;
+}
+
+.right-part ul {
+    display: flex;
+    list-style: none;
+    height: 30px;
+    /* width: 80%; */
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-heading {
+    height: 100px;
+    width: 20%;
+    text-align: center;
+    font-size: 48px;
+}
+
+.nav-optns {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-optns a {
+    text-decoration: none;
+    font-size: xx-large;
+    color: #212934;
+}
+
+.nav-icns {
+    height: 100px;
+    width: 20%;
+}
+
+section {
+    height: 600px;
+    background-color: #59ab6e
+}
+.con{
+    display: flex;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+}.con1{
+    height: 600px;
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.con1-support{
+    height: 600px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30%;
+}
+.con-head{
+    text-align: center;
+    font-size: 48px;
+}
+.con-info{
+    font-size: x-large;
+}
+.con2{
+    height: 60px;
+    width: 40%;
+}
+.service{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-head{
+    height: 100px;
+    width: 20%;
+    font-size: 40px;
+    text-align: center;
+    /* justify-content: center; */
+    margin: auto;
+}
+.service-info{
+    height: 100px;
+    width: 40%;
+    font-size: larger;
+    text-align: center;
+    /* justify-content: center; */
+    margin: auto;
+}
+.service-show{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    height: 220px;
+    width: 20%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.box2{
+    height: 220px;
+    width: 20%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.box3{
+    height: 220px;
+    width: 20%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.box4{
+    height: 220px;
+    width: 20%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.service-show :hover{
+    background-color: #59ab6e;
+}
+.brand{
+    height: 400px;
+    background-color: #e9eef5
+}
+.brand-info{
+    height: 380px;
+    display: flex;
+    justify-content: center;
+}
+.info{
+height: 380px;
+width: 50%;
+padding-top: 5%;
+} 
+.info1{
+font-size: 48px;
+text-align: center;
+}
+.info2{
+font-size: x-large;
+text-align: center;
+}
+footer{
+height: 400px;
+background-color: #212934;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-top: 3%;
+}
+.foot-main{
+height: 300px;
+width: 90%;
+display: flex;
+justify-content: space-between;
+}
+.shop{
+color: #59ab6e;
+font-size: xx-large;
+gap: 20px;
+}
+.shop :hover{
+color: #59ab6e;
+}
+.product{
+color: white;
+font-size: xx-large;
+}
+.further-info{
+color: #fff;
+font-size: xx-large;
+}
+.shop-address{
+color: #fff;
+font-size: large;
+}
+.shop-phone{
+color: #fff;
+font-size: large;
+}
+.shop-mail{
+color: #fff;
+font-size: large;
+}
+.product-list ul{
+list-style: none;
+font-size: large;
+line-height: 2;
+}
+.product-list ul :hover{
+color: #59ab6e;
+}
+.info-link ul{
+list-style: none;
+font-size: large;
+line-height: 2;
+}
+.info-link ul :hover{
+color: #59ab6e;
+}
+.endfooter{
+height: 180px;
+background-color: #212934;
+}
+.endfooter-main{
+height: 170px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.end-foot-icn{
+height: 60px;
+width: 30%;
+}
+.end-mail{
+width: 20%;
+background-color:darkcyan;
+font-size: x-large;
+}
+.end-mail input{
+ height: 50px;
+ padding-left: 10px
+}
+.rights{
+height: 60px;
+font-size: x-large;
+background-color: #1d242d;
+color: #fff;
+padding-left: 10px;
+}
